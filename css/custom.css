@@ -61,13 +61,15 @@ ul li a:hover {
     text-underline-offset: 7px;
 }
 
-.carousel-control-prev {
+b {
     color: #7E1AAE !important;
 }
 
-i {
+ol li {
     color: #7E1AAE !important;
 }
+
+
 
 
 /*---------------- Pie -----------*/
@@ -85,4 +87,27 @@ i {
     color: #440b56 !important;
     text-decoration: underline !important;
     text-underline-offset: 7px;
+}
+
+/*---------------- About -----------*/
+
+.bg-success {
+    background-color: #7E1AAE !important;
+}
+
+.equipo {
+    width: 100%;
+    
+}
+
+#incolors__pie {
+    color: #7E1AAE !important;
+}
+
+#dir {
+    color: #ffffff !important;
+}
+
+.fa {
+    color: #ffffff !important;
 }

@@ -27,5 +27,5 @@ const lista_categorias = [
     imagen:"img/hablador.png"},
     {nombre:"Cajas en acrilico", 
     descripcion:"elaboradas en acrilico ideal para desatcar tu marca desde la parte externa , elaborados con elementos en 3D, iluminación y detalles en acrilico espejo.",
-    imagen:"img/2.jpg"},
+    imagen:"img/AVISO-EN-ALUCOBOND.png"},
 ]
