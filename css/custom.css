@@ -13,7 +13,10 @@ body {
 
 .navbar-sm-brand {
     color: #ffffff !important;
-    font-size: 18px;
+}
+
+.text-light {
+    color: #ffffff !important;
 }
 
 #templatemo_nav_top {
@@ -42,6 +45,10 @@ body {
     object-fit: cover;
 }
 
+.carousel-inner {
+    background-color: #E4FDFC;
+}
+
 .in {
     color: #17CFCB;
 }
@@ -61,6 +68,11 @@ ul li a:hover {
     text-underline-offset: 7px;
 }
 
+.nav-icon i {
+    color: #7E1AAE !important;
+}
+/* --- Carrusel --- */
+
 b {
     color: #7E1AAE !important;
 }
@@ -69,8 +81,46 @@ ol li {
     color: #7E1AAE !important;
 }
 
+.text-primary {
+  color: #7E1AAE !important;
+}
 
+/* --- Color de las flechas --- */
 
+#template-mo-zay-hero-carousel .carousel-control-prev i,
+#template-mo-zay-hero-carousel .carousel-control-next i {
+  color: #7E1AAE !important; 
+  font-size: 2.8em !important; /* mantiene el tamaño */
+}
+
+#template-mo-zay-hero-carousel {
+    color: #7E1AAE;
+}
+
+/* Indicadores del carrusel */
+#template-mo-zay-hero-carousel .carousel-indicators li {
+  background-color: #7E1AAE !important;   /* morado corporativo */
+}
+
+/* Indicador activo */
+#template-mo-zay-hero-carousel .carousel-indicators .active {
+  background-color: #440b56 !important;   /* un morado más oscuro */
+}
+
+/* --- Botones de nuestros servicios --- */
+
+.btn-primary {
+  background-color: #7E1AAE !important;
+  border-color: #7E1AAE !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover {
+  background-color: #440b56 !important; /* un tono más oscuro */
+  border-color: #17CFCB !important;
+}
+
+/* --- Fin de la barra de navegación y carrusel --- */
 
 /*---------------- Pie -----------*/
 
@@ -87,6 +137,31 @@ ol li {
     color: #440b56 !important;
     text-decoration: underline !important;
     text-underline-offset: 7px;
+}
+
+a i:hover {
+    color: #FFFFFF !important;
+}
+
+.list-inline-item:hover {
+    background-color: #7E1AAE !important;
+}
+
+.input-group-text {
+    background-color: #7E1AAE !important;
+    border: #7E1AAE;
+}
+
+.form-control {
+    color: #ffffff !important;
+}
+
+p a {
+    text-underline-offset: 10px;
+}
+
+ #tempaltemo_footer p a:hover {
+    color: #FFFFFF !important;
 }
 
 /*---------------- About -----------*/
@@ -111,3 +186,4 @@ ol li {
 .fa {
     color: #ffffff !important;
 }
+
