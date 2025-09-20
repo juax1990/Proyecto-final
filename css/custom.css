@@ -1,0 +1,88 @@
+
+/*---------------- Custom Css -----------*/
+
+/*---------------- Colores generales -----------*/
+
+
+body {
+    color: #440b56 !important;
+    background-color: #F5E9FB;
+}
+
+/*---------------- Menu -----------*/
+
+.navbar-sm-brand {
+    color: #ffffff !important;
+    font-size: 18px;
+}
+
+#templatemo_nav_top {
+    background-color: #17CFCB !important;
+    color: #ffffff;
+}
+
+.container__img {
+    height: 10vh;
+    display: flex;
+}
+
+.navbar-brand {
+    color: #7E1AAE !important;
+}
+
+.navbar {
+    background-color: #ffffff !important;
+    color: #7E1AAE !important;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.in {
+    color: #17CFCB;
+}
+
+.navbar-toggler {
+    color: #7E1AAE !important;
+}
+
+ul li a {
+    color: #7E1AAE !important;
+    font-weight: 400 !important;
+}
+
+ul li a:hover {
+    color: #17CFCB !important;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+.carousel-control-prev {
+    color: #7E1AAE !important;
+}
+
+i {
+    color: #7E1AAE !important;
+}
+
+
+/*---------------- Pie -----------*/
+
+#tempaltemo_footer {
+    background-color: #17CFCB !important;
+    color: #ffffff;
+}
+
+#tempaltemo_footer a {
+    color: #ffffff !important;
+}
+
+#tempaltemo_footer a:hover {
+    color: #440b56 !important;
+    text-decoration: underline !important;
+    text-underline-offset: 7px;
+}
