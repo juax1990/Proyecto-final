@@ -153,7 +153,7 @@ a i:hover {
 }
 
 .form-control {
-    color: #ffffff !important;
+    color: #17CFCB !important;
 }
 
 p a {
@@ -187,3 +187,29 @@ p a {
     color: #ffffff !important;
 }
 
+
+.name {
+    color: #440b56 !important;
+}
+
+/*----------------  color de paginas de la tienda -----------*/
+
+.page-link {
+    background-color: #17CFCB !important;
+}
+
+.page-link:hover {
+    color: #440b56 !important;
+}
+
+/*----------------  color de detalle de la tienda -----------*/
+
+#etiqueta_detalle_producto {
+    background-color: #F5E9FB !important;
+}
+
+.btn {
+    color: #7E1AAE !important;
+    background: #F5E9FB !important;
+    border: #17CFCB;
+}

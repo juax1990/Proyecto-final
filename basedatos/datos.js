@@ -16,16 +16,32 @@ const elementos_carrusel = [
 ]
 
 const lista_categorias = [
-    {nombre:"Aviso tipo boton", 
-    descripcion:"aviso circular en la que destaca tu marca y decora los espacios de tu local.",
-    imagen:"img/AVISO-TIPO-BOTON.png"},
-    {nombre:"Pines", 
-    descripcion:"formas en acrilico ideales para destacar tu trabajo de uñas y exhibir tu marca y conectacto.",
-    imagen:"img/PINES.png"},
-    {nombre:"Habladores QR", 
-    descripcion:"ideal para aplicar qr como formas de pago, redes sociales menu o lo que desees facilitando a tus clientes el acceso.",
-    imagen:"img/hablador.png"},
-    {nombre:"Cajas en acrilico", 
-    descripcion:"elaboradas en acrilico ideal para desatcar tu marca desde la parte externa , elaborados con elementos en 3D, iluminación y detalles en acrilico espejo.",
-    imagen:"img/AVISO-EN-ALUCOBOND.png"},
+    { codigo_categoria: "9001", nombre: "Avisos publicitarios",imagen:"img/AVISO-TIPO-BOTON.png" },
+    { codigo_categoria: "9002", nombre: "Pines", imagen:"img/pines.png" },
+    { codigo_categoria: "9003", nombre: "Catálogos", imagen:"img/CATALOGO-MELIPELUCHES-1.jpg" },
+    { codigo_categoria: "9004", nombre: "Diseño textil", imagen:"img/diseno-textil-1.png" },
+    { codigo_categoria: "9006", nombre: "Señalética", imagen:"img/senaletica.png" }
+];
+
+
+
+const lista_productos = [
+    {codigo:"1000", nombre:"Aviso tipo boton", 
+    descripcion:"Aviso circular en la que destaca tu marca y decora los espacios de tu local.", codigo_categoria:"9001",
+    imagen:"img/AVISO-TIPO-BOTON.png", precio:"27000"},
+    {codigo:"1002", nombre:"Pines", 
+    descripcion:"ideal para aplicar qr como formas de pago, redes sociales menu o lo que desees facilitando a tus clientes el acceso.", codigo_categoria:"9002",
+    imagen:"img/pines.png", precio:"50000"},
+    {codigo:"1003", nombre:"Diseño de catalogo", 
+    descripcion:"Diseñamos tu catalogo de productos y servicios.", codigo_categoria:"9003",
+    imagen:"img/CATALOGO-MELIPELUCHES-1.jpg", precio:"10000"},
+    {codigo:"1004", nombre:"Diseño textil", 
+    descripcion:"Diseñamos productos textiles acorde a tus colores y misión.", codigo_categoria:"9004",
+    imagen:"img/diseno-textil-1.png", precio:"12000"},
+    {codigo:"1005", nombre:"Aviso caja luminosa", 
+    descripcion:"Aviso externo con iluminación que hata resaltar tu negocio.", codigo_categoria:"9001",
+    imagen:"img/CAJA-LUMINOSA-ALISADOS-INTELIGENTES.png", precio:"90000"},
+    {codigo:"1006", nombre:"Señaletica", 
+    descripcion:"Señales de abierto cerrado.", codigo_categoria:"9006",
+    imagen:"img/senaletica.png", precio:"10000"},
 ]
