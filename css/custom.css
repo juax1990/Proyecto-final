@@ -69,6 +69,14 @@ h2 {
     color: #7E1AAE !important;
 }
 
+.nav-link {
+    color: #7E1AAE !important;
+}
+
+.nav-link:hover {
+    color: #17CFCB !important;
+}
+
 ul li a {
     color: #7E1AAE !important;
     font-weight: 400 !important;
@@ -235,6 +243,10 @@ ul.footer-link-list li a.contact-incolor:hover {
 }
 
 .page-link:hover {
+    color: #440b56 !important;
+}
+
+h1 + ul li a {
     color: #440b56 !important;
 }
 
