@@ -21,9 +21,8 @@
         <!-- Contenedor para cargar la barra de menú usando JavaScript -->
         <div id="menu"></div>
         <!-- Contenido de la página - Inicio -->
-         Esta es la pagina de inicio del sitio web
-         <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem eligendi dolores fugit dignissimos similique earum odit, cupiditate harum omnis illo eos laborum est excepturi ratione soluta vitae neque magni qui.
+         <p class="contenido">
+            En Incolors Agencia de Diseño S.A.S elaboramos diferentes piezas publicitarias corporativas para empresas, nos apoyamos en la información que se suministra t el manual corporativo de la marca, cotizando y elaborando diferentes piezas publicitarias que nuestros clientes necesiten, nos destacamos por diseño, calidad y trabajo eficiente.
          </p>
         <!-- Inicio del carrusel -->
         <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
@@ -95,7 +94,7 @@
             divItem.innerHTML = `
                 <div class="container">
                     <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                        <div class="mx-auto col-md-9 col-lg-6 order-lg-last">
                             <img class="img-fluid" src="${elemento.imagen}" alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
@@ -118,7 +117,7 @@
 
      <!-- Sección de categorias inicio -->
     <section class="container">
-        <div class="row text-center pt-3">
+        <div class="row text-center pt-5">
             <div class="col-lg-6 m-auto">
                 <h1 class="h1">Nuestros servicios</h1>
                 <p>
@@ -135,12 +134,12 @@
         let etiqueta_categorias = document.getElementById("etiqueta_categorias");
         lista_categorias.forEach(categoria => {
             let div = document.createElement("div");
-            div.classList.add("col-12", "col-md-3", "p-5", "mt-3");
+            div.classList.add("col-12", "col-md-4", "p-5", "mt-3");
             div.innerHTML = `
             <a href="#"><img src="${categoria.imagen}" class="rounded-circle img-fluid border"></a>
             <h2 class="h5 text-center mt-3 mb-3">${categoria.nombre}</h2>
             <p class="text-center">${categoria.descripcion}</p>
-            <p class="text-center"><a class="btn btn-primary">Ir a comprar</a></p>
+            <p class="text-center"><a href="productos.html" class="btn-incolors">Ir a comprar</a></p>
             `;
             etiqueta_categorias.appendChild(div);
         });

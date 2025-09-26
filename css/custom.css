@@ -9,6 +9,18 @@ body {
     background-color: #F5E9FB;
 }
 
+h2 {
+    color: #FFFFFF;
+}
+
+.h1 {
+    font-weight: 400 !important;
+}
+
+.h5 {
+    color: #440b56;
+}
+
 /*---------------- Menu -----------*/
 
 .navbar-sm-brand {
@@ -71,6 +83,12 @@ ul li a:hover {
 .nav-icon i {
     color: #7E1AAE !important;
 }
+
+/* --- Contenido de la pagina --- */
+
+.contenido {
+    margin: 40px;
+}
 /* --- Carrusel --- */
 
 b {
@@ -107,17 +125,26 @@ ol li {
   background-color: #440b56 !important;   /* un morado más oscuro */
 }
 
-/* --- Botones de nuestros servicios --- */
-
-.btn-primary {
-  background-color: #7E1AAE !important;
-  border-color: #7E1AAE !important;
-  color: #fff !important;
+/* ==========================
+   Botón personalizado INCOLORS
+   ========================== */
+.btn-incolors {
+  background-color: #ffffff;
+  border: 2px solid #7E1AAE;
+  color: #7E1AAE;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem; /* bordes suaves */
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
 }
 
-.btn-primary:hover {
-  background-color: #440b56 !important; /* un tono más oscuro */
-  border-color: #17CFCB !important;
+.btn-incolors:hover {
+  background-color: #ffffff;
+  border-color: #17CFCB;
+  color: #17CFCB;
+  text-decoration: none;
 }
 
 /* --- Fin de la barra de navegación y carrusel --- */
@@ -129,22 +156,18 @@ ol li {
     color: #ffffff;
 }
 
-#tempaltemo_footer a {
-    color: #ffffff !important;
+.list-inline-item:hover {
+    background-color: #7E1AAE !important;
 }
 
-#tempaltemo_footer a:hover {
-    color: #440b56 !important;
-    text-decoration: underline !important;
-    text-underline-offset: 7px;
-}
-
-a i:hover {
+ul li a {
     color: #FFFFFF !important;
 }
 
-.list-inline-item:hover {
-    background-color: #7E1AAE !important;
+ul li a:hover {
+    color: #7E1AAE !important;
+    text-decoration: underline !important;
+    text-underline-offset: 5px !important;
 }
 
 .input-group-text {
@@ -177,16 +200,29 @@ p a {
 
 #incolors__pie {
     color: #7E1AAE !important;
+    font-weight: 600 !important;
 }
 
 #dir {
     color: #ffffff !important;
 }
 
+.footer-icon:hover {
+    color: #7E1AAE !important;
+}
+
 .fa {
     color: #ffffff !important;
 }
 
+ul.footer-link-list li a.contact-incolor {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+ul.footer-link-list li a.contact-incolor:hover {
+  color: #7E1AAE !important;
+}
 
 .name {
     color: #440b56 !important;

@@ -16,11 +16,11 @@ const elementos_carrusel = [
 ]
 
 const lista_categorias = [
-    { codigo_categoria: "9001", nombre: "Avisos publicitarios",imagen:"img/AVISO-TIPO-BOTON.png" },
-    { codigo_categoria: "9002", nombre: "Pines", imagen:"img/pines.png" },
-    { codigo_categoria: "9003", nombre: "Catálogos", imagen:"img/CATALOGO-MELIPELUCHES-1.jpg" },
-    { codigo_categoria: "9004", nombre: "Diseño textil", imagen:"img/diseno-textil-1.png" },
-    { codigo_categoria: "9006", nombre: "Señalética", imagen:"img/senaletica.png" }
+    { codigo_categoria: "9001", nombre: "Avisos publicitarios",imagen:"img/AVISO-TIPO-BOTON.png", descripcion:"Aviso exterior o inferior, el cual puede tener luces, echo en diferentes materiales como acrilico, lona y mas" },
+    { codigo_categoria: "9002", nombre: "Pines", imagen:"img/pines.png", descripcion:"Formas en acrilico ideales para destacar tu trabajo de uñas" },
+    { codigo_categoria: "9003", nombre: "Catálogos", imagen:"img/CATALOGO-MELIPELUCHES-1.jpg", descripcion:"Diseñamos tu catalogo de productos y servicios." },
+    { codigo_categoria: "9004", nombre: "Diseño textil", imagen:"img/diseno-textil-1.png", descripcion:"Diseñamos productos textiles acorde a tus colores y misión." },
+    { codigo_categoria: "9006", nombre: "Señalética", imagen:"img/senaletica.png", descripcion:"Señales de abierto cerrado." }
 ];
 
 
