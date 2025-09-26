@@ -16,5 +16,5 @@ function obtenerProductoServicioPorCodigo(codigo) {
     }
     return null;
     */
-    return lista_productos.find(producto => productos.codigo === codigo);    
+    return lista_productos.find(producto => producto.codigo === codigo);    
 }

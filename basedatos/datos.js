@@ -28,7 +28,7 @@ const lista_categorias = [
 const lista_productos = [
     {codigo:"1000", nombre:"Aviso tipo boton", 
     descripcion:"Aviso circular en la que destaca tu marca y decora los espacios de tu local.", codigo_categoria:"9001",
-    imagen:"img/AVISO-TIPO-BOTON.png", precio:"27000"},
+    imagen:"img/AVISO-TIPO-BOTON.png", precio:"27000", contenido:["Material: Acrílico","Medidas: 40x40cm","Iluminación opcional"]},
     {codigo:"1002", nombre:"Pines", 
     descripcion:"ideal para aplicar qr como formas de pago, redes sociales menu o lo que desees facilitando a tus clientes el acceso.", codigo_categoria:"9002",
     imagen:"img/pines.png", precio:"50000"},

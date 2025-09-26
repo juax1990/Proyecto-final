@@ -26,174 +26,80 @@
     <div id="menu"></div>
     <!-- Contenido de la página - Inicio -->
 
+    <!-- Open Content -->
     <section id="etiqueta_detalle_producto" class="bg-light">
-      <div class="container pb-5">
-        <div class="row">
-          <div class="col-lg-5 mt-5">
-            <div class="card mb-3">
-              <img
-                class="card-img img-fluid"
-                src="img/AVISO-EN-ACRILICO-3D-BONITA-COSMETICS.png"
-                alt="Card image cap"
-                id="product-detail"
-              />
-            </div>
-        
-        </div>
-        <!-- col end -->
-        <div class="col-lg-7 mt-5">
-          <div class="card">
-            <div class="card-body">
-              <h1 class="h2">Active Wear</h1>
-              <p class="h3 py-2">$25.00</p>
-              <p class="py-2">
-                <i class="fa fa-star text-warning"></i>
-                <i class="fa fa-star text-warning"></i>
-                <i class="fa fa-star text-warning"></i>
-                <i class="fa fa-star text-warning"></i>
-                <i class="fa fa-star text-secondary"></i>
-                <span is="" class="list-inline-item text-dark"
-                  >Rating 4.8 | 36 Comments</span
-                >
-              </p>
-              <ul class="list-inline">
-                <li class="list-inline-item">
-                  <h6>Brand:</h6>
-                </li>
-                <li class="list-inline-item">
-                  <p class="text-muted"><strong>Easy Wear</strong></p>
-                </li>
-              </ul>
-
-              <h6>Description:</h6>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod temp incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse. Donec condimentum elementum convallis. Nunc
-                sed orci a diam ultrices aliquet interdum quis nulla.
-              </p>
-
-              <h6>Specification:</h6>
-              <ul class="list-unstyled pb-3">
-                <li>Lorem ipsum dolor sit</li>
-                <li>Amet, consectetur</li>
-                <li>Adipiscing elit,set</li>
-                <li>Duis aute irure</li>
-                <li>Ut enim ad minim</li>
-                <li>Dolore magna aliqua</li>
-                <li>Excepteur sint</li>
-              </ul>
-
-              <form action="" method="GET">
-                <input type="hidden" name="product-title" value="Activewear" />
-                <div class="row"></div>
-                <div class="row pb-3">
-                  <div class="col d-grid">
-                    <button
-                      type="submit"
-                      class="btn btn-success btn-lg"
-                      name="submit"
-                      value="buy"
-                    >
-                      Buy
-                    </button>
-                  </div>
-                  <div class="col d-grid">
-                    <button
-                      type="submit"
-                      class="btn btn-success btn-lg"
-                      name="submit"
-                      value="addtocard"
-                    >
-                      Add To Cart
-                    </button>
-                  </div>
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col-lg-5 mt-5">
+                    <div class="card mb-3">
+                        <img class="card-img img-fluid" src="assets/img/product_single_10.jpg" alt="Card image cap" id="product-detail">
+                    </div>
                 </div>
-              </form>
+                <!-- col end -->
+                <div class="col-lg-7 mt-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h1 class="h2" id="nombre-producto">Active Wear</h1>
+                            <p class="h3 py-2" id="costo-producto">$25.00</p>
+                            <p class="py-2" id="clasificacion-producto">
+                                <i class="fa fa-star text-warning"></i>
+                                <i class="fa fa-star text-warning"></i>
+                                <i class="fa fa-star text-warning"></i>
+                                <i class="fa fa-star text-warning"></i>
+                                <i class="fa fa-star text-secondary"></i>
+                            </p>
+
+                            <h6>Descripción:</h6>
+                            <p id="descripcion-producto"></p>
+
+                            <h6>Contenido:</h6>
+                            <ol class="pb-3" id="contenido-producto">
+                                
+                            </ol>
+
+                            <form action="" method="GET">
+                                <input type="hidden" name="product-title" value="Activewear">
+                                <div class="row pb-3">
+                                    <div class="col d-grid">
+                                        <button type="submit" class="btn btn-success btn-lg" name="submit" 
+                                                value="buy">Buy</button>
+                                    </div>
+                                    <div class="col d-grid">
+                                        <button type="submit" class="btn btn-success btn-lg" name="submit" 
+                                                value="addtocard">Add To Cart</button>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <script>
-      // Obtener el parámetro de la URL
-      const urlParams = new URLSearchParams(window.location.search);
-      const codigo_producto = urlParams.get("codigo_producto");
 
-      // Buscar el producto en la lista de productos
-      const producto = obtenerProductoServicioPorCodigo(codigo_producto);
+        // Obtener el parámetro de la URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const codigo_producto = urlParams.get('codigo_producto');
 
-      // Si se encuentra el producto, actualizar el contenido de la página
-      if (producto) {
-        const etiqueta_detalle_producto = document.getElementById(
-          "etiqueta_detalle_producto"
-        );
-        etiqueta_detalle_producto.innerHTML = `
-                <section id="etiqueta_detalle_producto" class="bg-light">
-                    <div class="container pb-5">
-                        <div class="row">
-                            <div class="col-lg-5 mt-5">
-                                <div class="card mb-3">
-                                    <img class="card-img img-fluid" src="${
-                                      producto.imagen
-                                    }" alt="Card image cap"
-                                        id="product-detail">
-                                </div>
-                            </div>
-                            <!-- col end -->
-                            <div class="col-lg-7 mt-5">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h1 class="h2">${producto.nombre}</h1>
-                                        <p class="h3 py-2">$${producto.precio.toFixed(
-                                          2
-                                        )}</p>
-                                        <p class="py-2">
-                                            <i class="fa fa-star text-warning"></i>
-                                            <i class="fa fa-star text-warning"></i>
-                                            <i class="fa fa-star text-warning"></i>
-                                            <i class="fa fa-star text-warning"></i>
-                                            <i class="fa fa-star text-secondary"></i>
-                                            <span class="list-inline-item text-dark">Rating ${
-                                              producto.clasificacion
-                                            } | 36 Comments</span>
-                                        </p>
-                                        <h6>Description:</h6>
-                                        <p>${producto.descripcion}</p>
-                                        <h6>Specification:</h6>
-                                        <ul class="list-unstyled pb-3">
-                                            <li>Lorem ipsum dolor sit</li>
-                                            <li>Amet, consectetur</li>
-                                            <li>Adipiscing elit,set</li>
-                                            <li>Duis aute irure</li>
-                                            <li>Ut enim ad minim</li>
-                                            <li>Dolore magna aliqua</li>
-                                            <li>Excepteur sint</li>
-                                        </ul>
-                                        <form action="" method="GET">
-                                            <input type="hidden" name="product-title" value="${
-                                              producto.nombre
-                                            }">
-                                            <div class="row pb-3">
-                                                <div class="col d-grid">
-                                                    <button type="submit" class="btn btn-success btn-lg" name="submit"
-                                                            value="buy">Buy</button>
-                                                </div>
-                                                <div class="col d-grid">
-                                                    <button type="submit" class="btn btn-success btn-lg" name="submit"
-                                                            value="addtocard">Add To Cart</button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>`;
-      }
+  let producto = obtenerProductoServicioPorCodigo(codigo_producto);
+
+  if (producto) {
+    document.getElementById("product-detail").src = producto.imagen;
+    document.getElementById("nombre-producto").innerText = producto.nombre;
+    document.getElementById("costo-producto").innerText = 
+      `$${Number(producto.precio).toLocaleString("es-CO")}`;
+    document.getElementById("descripcion-producto").innerText = producto.descripcion;
+
+    // Solo agrega contenido si existe
+    if (producto.contenido) {
+      document.getElementById("contenido-producto").innerHTML = 
+        producto.contenido.map(item => `<li>${item}</li>`).join('');
+    }
+  }
+
     </script>
 
     <!-- Close Content -->
