@@ -111,6 +111,10 @@ ol li {
   color: #7E1AAE !important;
 }
 
+#ormMessage {
+    background-color: #17CFCB !important;
+}
+
 /* --- Color de las flechas --- */
 
 #template-mo-zay-hero-carousel .carousel-control-prev i,
@@ -133,9 +137,7 @@ ol li {
   background-color: #440b56 !important;   /* un morado más oscuro */
 }
 
-/* ==========================
-   Botón personalizado INCOLORS
-   ========================== */
+/*  Botón personalizado INCOLORS */
 .btn-incolors {
   background-color: #ffffff;
   border: 2px solid #7E1AAE;
@@ -183,8 +185,13 @@ ul li a:hover {
     border: #7E1AAE;
 }
 
-.form-control {
-    color: #17CFCB !important;
+
+label + input {
+    color: #440b56 !important;
+}
+
+div div + div div input {
+    color: #FFFFFF !important;
 }
 
 p a {

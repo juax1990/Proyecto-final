@@ -18,3 +18,50 @@ function obtenerProductoServicioPorCodigo(codigo) {
     */
     return lista_productos.find(producto => producto.codigo === codigo);    
 }
+
+// Funciones relacionasdas con el carrito de compras
+
+function mostrarCarrito() {
+    let etiqueta_carrito = document.getElementById("etiqueta_carrito");
+    etiqueta_carrito.innerHTML = "";
+    
+    let costoTotal = 0;
+
+    carrito.forEach((elemento, posicion) => {
+        
+
+        let li = document.createElement("li");
+        li.innerHTML = `
+                <div class="d-flex justify-content-between align-items-center p-2 border-bottom border-dark">
+                    <div class="row">
+                        <p class="my-0">${elemento.nombre}</p>
+                        <small>${elemento.precio}</small>
+                    </div>
+                    <a class="btn bg-warning text-decoration-none text-dark" href="#" onclick="eliminarProducto('${posicion}')" >
+                        <i class="fa fa-times"></i>
+                    </a>
+                </div>`;
+        etiqueta_carrito.appendChild(li);
+        costoTotal = costoTotal + elemento.precio;
+    });
+
+    let etiqueta_total = document.getElementById("etiqueta_total");
+    etiqueta_total.innerText = costoTotal;
+}
+
+
+
+function agregarProducto(productos) {
+    carrito.push(productos);
+    mostrarCarrito()
+}
+
+function eliminarProducto(posicion) {
+    carrito.splice(posicion, 1);
+    mostrarCarrito()
+}
+
+function vaciarCarrito() {
+    carrito = [];
+    mostrarCarrito();
+}

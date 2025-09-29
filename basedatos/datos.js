@@ -30,7 +30,7 @@ const lista_productos = [
     descripcion:"Aviso circular en la que destaca tu marca y decora los espacios de tu local.", codigo_categoria:"9001",
     imagen:"img/AVISO-TIPO-BOTON.png", precio:"27000", contenido:["Material: Acrílico","Medidas: 40x40cm","Iluminación opcional"]},
     {codigo:"1002", nombre:"Pines", 
-    descripcion:"ideal para aplicar qr como formas de pago, redes sociales menu o lo que desees facilitando a tus clientes el acceso.", codigo_categoria:"9002",
+    descripcion:"Ideal para mostrar el diseño de uñas.", codigo_categoria:"9002",
     imagen:"img/pines.png", precio:"50000"},
     {codigo:"1003", nombre:"Diseño de catalogo", 
     descripcion:"Diseñamos tu catalogo de productos y servicios.", codigo_categoria:"9003",
@@ -45,3 +45,7 @@ const lista_productos = [
     descripcion:"Señales de abierto cerrado.", codigo_categoria:"9006",
     imagen:"img/senaletica.png", precio:"10000"},
 ]
+
+// Lista que representa el carrito de compras del usuario
+
+let carrito = [];
