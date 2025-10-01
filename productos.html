@@ -143,7 +143,7 @@
         </div>
       </div>
       <!-- Carrito de compras inicio -->
-      <div class="col-lg-2 p-5">
+      <div class="col-lg-2 p-5 carrito-compra">
         <h4>Carrito de compras</h4>
         <p>Valor total: $ <b id="etiqueta_total"> 0 </b></p>
 
@@ -152,7 +152,7 @@
         <div id="boton-vaciar" class="btn btn-danger text-decoration-none" onclick="vaciarCarrito()">Vaciar</div>
 
         <div class="btn btn-success text-decoration-none" id="boton-pagar">
-          <a class="text-decoration-none btn-success text-white" href="pagar.html" target="target_blank">Pagar</a>
+          <a id="btn-pagar" class="text-decoration-none btn-success text-white" href="pagar.html" target="target_blank">Pagar</a>
         </div>
       </div>
       <!-- Carrito de compras final -->
@@ -176,7 +176,7 @@
   <script src="js/custom.js"></script>
   <!-- End Script -->
   <script>
-    t.addEventListener("DOMContentLoaded", () => {
+    document.addEventListener("DOMContentLoaded", () => {
       cargarFragmento("menu", "menu.html");
       cargarFragmento("pie", "pie.html");
     });

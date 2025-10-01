@@ -1,147 +1,151 @@
-
-/*---------------- Custom Css -----------*/
-
 /*---------------- Colores generales -----------*/
 
-
 body {
-    color: #440b56 !important;
-    background-color: #F5E9FB;
+  color: #440b56 !important;
+  background-color: #f5e9fb;
 }
 
 h2 {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .h1 {
-    font-weight: 400 !important;
+  font-weight: 400 !important;
 }
 
 .h5 {
-    color: #440b56;
+  color: #440b56;
+}
+
+h4 {
+    padding: 20px;
 }
 
 /*---------------- Menu -----------*/
 
 .navbar-sm-brand {
-    color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 .text-light {
-    color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 #templatemo_nav_top {
-    background-color: #17CFCB !important;
-    color: #ffffff;
+  background-color: #17cfcb !important;
+  color: #ffffff;
 }
 
 .container__img {
-    height: 10vh;
-    display: flex;
+  height: 10vh !important;
+  display: flex;
 }
 
 .navbar-brand {
-    color: #7E1AAE !important;
+  color: #7e1aae !important;
 }
 
 .navbar {
-    background-color: #ffffff !important;
-    color: #7E1AAE !important;
+  background-color: #ffffff !important;
+  color: #7e1aae !important;
 }
 
 .carousel-inner img {
-    width: 100%;
-    height: 350px;
-    border-radius: 10px;
-    object-fit: cover;
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .carousel-inner {
-    background-color: #E4FDFC;
+  background-color: #e4fdfc;
 }
 
 .in {
-    color: #17CFCB;
+  color: #17cfcb;
 }
 
 .navbar-toggler {
-    color: #7E1AAE !important;
+  color: #7e1aae !important;
 }
 
 .nav-link {
-    color: #7E1AAE !important;
+  color: #7e1aae !important;
 }
 
 .nav-link:hover {
-    color: #17CFCB !important;
+  color: #17cfcb !important;
 }
 
 ul li a {
-    color: #7E1AAE !important;
-    font-weight: 400 !important;
+  color: #7e1aae !important;
+  font-weight: 400 !important;
 }
 
 ul li a:hover {
-    color: #17CFCB !important;
-    text-decoration: underline;
-    text-underline-offset: 7px;
+  color: #17cfcb !important;
+  text-decoration: underline;
+  text-underline-offset: 7px;
 }
 
 .nav-icon i {
-    color: #7E1AAE !important;
+  color: #7e1aae !important;
 }
 
 /* --- Contenido de la pagina --- */
 
 .contenido {
-    margin: 40px;
+  margin: 40px;
+}
+
+div#nosotros {
+    font-size: 20px !important;
 }
 /* --- Carrusel --- */
 
 b {
-    color: #7E1AAE !important;
+  color: #7e1aae !important;
 }
 
 ol li {
-    color: #7E1AAE !important;
+  color: #7e1aae !important;
 }
 
 .text-primary {
-  color: #7E1AAE !important;
+  color: #7e1aae !important;
 }
 
 #ormMessage {
-    background-color: #17CFCB !important;
+  background-color: #17cfcb !important;
 }
 
 /* --- Color de las flechas --- */
 
 #template-mo-zay-hero-carousel .carousel-control-prev i,
 #template-mo-zay-hero-carousel .carousel-control-next i {
-  color: #7E1AAE !important; 
+  color: #7e1aae !important;
   font-size: 2.8em !important; /* mantiene el tamaño */
 }
 
 #template-mo-zay-hero-carousel {
-    color: #7E1AAE;
+  color: #7e1aae;
 }
 
 /* Indicadores del carrusel */
 #template-mo-zay-hero-carousel .carousel-indicators li {
-  background-color: #7E1AAE !important;   /* morado corporativo */
+  background-color: #7e1aae !important; /* morado corporativo */
 }
 
 /* Indicador activo */
 #template-mo-zay-hero-carousel .carousel-indicators .active {
-  background-color: #440b56 !important;   /* un morado más oscuro */
+  background-color: #440b56 !important; /* un morado más oscuro */
 }
 
 /*  Botón personalizado INCOLORS */
 .btn-incolors {
   background-color: #ffffff;
-  border: 2px solid #7E1AAE;
-  color: #7E1AAE;
+  border: 2px solid #7e1aae;
+  color: #7e1aae;
   font-weight: 400;
   padding: 0.5rem 1rem;
   border-radius: 0.375rem; /* bordes suaves */
@@ -152,8 +156,8 @@ ol li {
 
 .btn-incolors:hover {
   background-color: #ffffff;
-  border-color: #17CFCB;
-  color: #17CFCB;
+  border-color: #17cfcb;
+  color: #17cfcb;
   text-decoration: none;
 }
 
@@ -162,72 +166,78 @@ ol li {
 /*---------------- Pie -----------*/
 
 #tempaltemo_footer {
-    background-color: #17CFCB !important;
-    color: #ffffff;
+  background-color: #17cfcb !important;
+  color: #ffffff;
 }
 
 .list-inline-item:hover {
-    background-color: #7E1AAE !important;
+  background-color: #7e1aae !important;
 }
 
 ul li a {
-    color: #FFFFFF !important;
+  color: #ffffff !important;
 }
 
 ul li a:hover {
-    color: #7E1AAE !important;
-    text-decoration: underline !important;
-    text-underline-offset: 5px !important;
+  color: #7e1aae !important;
+  text-decoration: underline !important;
+  text-underline-offset: 5px !important;
 }
 
 .input-group-text {
-    background-color: #7E1AAE !important;
-    border: #7E1AAE;
+  background-color: #7e1aae !important;
+  border: transparent;
 }
 
-
 label + input {
-    color: #440b56 !important;
+  color: #440b56 !important;
 }
 
 div div + div div input {
-    color: #FFFFFF !important;
+  color: #ffffff !important;
 }
 
 p a {
-    text-underline-offset: 10px;
+  text-underline-offset: 10px;
 }
 
- #tempaltemo_footer p a:hover {
-    color: #FFFFFF !important;
+#tempaltemo_footer p a:hover {
+  color: #ffffff !important;
+}
+
+ul li a i {
+    color: #ffffff;
+}
+
+.redes-icon:hover {
+    color: #e4fdfc !important;
 }
 
 /*---------------- About -----------*/
 
 .bg-success {
-    background-color: #7E1AAE !important;
+  background-color: #7e1aae !important;
 }
 
 .equipo {
-    width: 100%;
-    
+  width: 100%;
 }
 
 #incolors__pie {
-    color: #7E1AAE !important;
-    font-weight: 600 !important;
+  color: #7e1aae !important;
+  font-weight: 600 !important;
 }
 
 #dir {
-    color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 .footer-icon:hover {
-    color: #7E1AAE !important;
+  color: #7e1aae !important;
 }
 
 .fa {
-    color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 ul.footer-link-list li a.contact-incolor {
@@ -236,35 +246,203 @@ ul.footer-link-list li a.contact-incolor {
 }
 
 ul.footer-link-list li a.contact-incolor:hover {
-  color: #7E1AAE !important;
+  color: #7e1aae !important;
 }
 
 .name {
-    color: #440b56 !important;
+  color: #440b56 !important;
+}
+
+/*----------------  Formulario -----------*/
+
+.form-contact {
+    margin-bottom: 0 !important;
+    margin-top: 70px !important;
+}
+
+.form-group {
+    padding: 10px;
+}
+
+#btn-contact {
+    margin-bottom: 20px;
+}
+
+#formMessage, form {
+  margin-bottom: 0 !important;
+  box-shadow: 0 6px 20px #5c1482 !important;
+  border-radius: 8px !important;
+  max-width: 500px;
+}
+
+/*----------------  Mapa -----------*/
+
+iframe {
+  box-shadow: 0 6px 20px #5c1482 !important; /* sombra */
+  border: 2px solid #7E1AAE !important; 
+  border-radius: 12px; /* esquinas redondeadas */
+  margin-bottom: 20px;
+  margin-top: 0 !important;
 }
 
 /*----------------  color de paginas de la tienda -----------*/
 
 .page-link {
-    background-color: #17CFCB !important;
+  background-color: #17cfcb !important;
 }
 
 .page-link:hover {
-    color: #440b56 !important;
+  color: #440b56 !important;
 }
 
 h1 + ul li a {
-    color: #440b56 !important;
+  color: #7e1aae !important;
 }
 
+h1 + ul li a:hover {
+    color: #17cfcb !important;
+}
+
+.product-wap .h3, .product-wap li, .product-wap i, .product-wap p {
+    font-size: 15px !important;
+}
+
+.product-overlay .btn {
+  background-color: #7E1AAE !important;
+  border-color: #7E1AAE !important;
+  color: #fff !important;
+}
+
+.product-overlay .btn:hover {
+  background-color: #440b56 !important;
+  border-color: #440b56 !important;
+}
 /*----------------  color de detalle de la tienda -----------*/
 
 #etiqueta_detalle_producto {
-    background-color: #F5E9FB !important;
+  background-color: #f5e9fb !important;
 }
 
 .btn {
-    color: #7E1AAE !important;
-    background: #F5E9FB !important;
-    border: #17CFCB;
+  color: #7e1aae !important;
+  background: #f5e9fb !important;
+  border: #17cfcb;
+}
+
+#btn-contact {
+    color: #ffffff !important;
+    background-color: #7e1aae !important;
+}
+
+#btn-contact:focus,
+#btn-contact:active {
+    background-color: #440b56 !important;  /* color cuando se presiona */
+    border-color: #440b56 !important;      /* borde cuando se presiona */
+    box-shadow: none !important;           /* quita el glow azul de Bootstrap */
+}
+/*----------------  color de detalle de la tienda -----------*/
+
+.pago-container {
+  background: #e4fdfc;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pago-container h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #440b56;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background: #7e1aae;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5c1482;
+}
+
+.mensaje {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+div h4 + p {
+    padding: 10px;
+    background-color: #ffffff;
+    display: block;
+    font-size: 1.2rem;
+    word-wrap: break-word;
+}
+
+li div div p {
+    padding: 10px;
+    display: block;
+    font-size: 1.2rem;
+    word-wrap: break-word;
+}
+
+.carrito-compra {
+    background-color: #e4fdfc;
+    padding: 5px !important;
+    margin: 0 !important;
+    border-radius: 5px;
+}
+
+.pago {
+    text-align: center;
+    background-color: #7e1aae;
+    color: #ffffff;
+}
+
+/*----------------  Botones detalle producto -----------*/
+
+#boton-agregar {
+    background-color: #7E1AAE !important;
+    color: #ffffff !important;
+}
+
+#boton-regresar {
+    background-color: #7E1AAE !important;
+    color: #ffffff !important;
+}
+
+.detalle {
+    padding: 0px 10px 0 10px !important;
+}
+
+.bg-warning {
+    background: #7E1AAE !important;
+}
+
+#boton-pagar {
+    background-color: #17cfcb !important;
+}
+
+#btn-pagar {
+    background-color: transparent;
 }
