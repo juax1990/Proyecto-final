@@ -17,10 +17,10 @@ const elementos_carrusel = [
 
 const lista_categorias = [
     { codigo_categoria: "9001", nombre: "Avisos publicitarios",imagen:"img/atb.png", descripcion:"Aviso exterior o inferior, el cual puede tener luces, echo en diferentes materiales como acrilico, lona y mas" },
-    { codigo_categoria: "9002", nombre: "Pines", imagen:"img/pines.png", descripcion:"Formas en acrilico ideales para destacar tu trabajo de uñas" },
+    { codigo_categoria: "9002", nombre: "Pines", imagen:"img/pines.jpg", descripcion:"Formas en acrilico ideales para destacar tu trabajo de uñas" },
     { codigo_categoria: "9003", nombre: "Catálogos", imagen:"img/cmp.jpg", descripcion:"Diseñamos tu catalogo de productos y servicios." },
     { codigo_categoria: "9004", nombre: "Diseño textil", imagen:"img/diseno-textil-1.png", descripcion:"Diseñamos productos textiles acorde a tus colores y misión." },
-    { codigo_categoria: "9006", nombre: "Señalética", imagen:"img/senal.png", descripcion:"Señales de abierto cerrado, etc" }
+    { codigo_categoria: "9006", nombre: "Señalética", imagen:"img/senal.jpg", descripcion:"Señales de abierto cerrado, etc" }
 ];
 
 
@@ -31,7 +31,7 @@ const lista_productos = [
     imagen:"img/atb.png", precio:"27000", contenido:["Material: Acrílico","Medidas: 40x40cm","Iluminación opcional"]},
     {codigo:"1002", nombre:"Pines", 
     descripcion:"Ideal para mostrar el diseño de uñas.", codigo_categoria:"9002",
-    imagen:"img/pines.png", precio:"50000", contenido:["Formas en acrillico para mostrar el diseño de tus uñas"]},
+    imagen:"img/pines.jpg", precio:"50000", contenido:["Formas en acrillico para mostrar el diseño de tus uñas"]},
     {codigo:"1003", nombre:"Diseño de catalogo", 
     descripcion:"Diseñamos tu catalogo de productos y servicios.", codigo_categoria:"9003",
     imagen:"img/cmp.jpg", precio:"10000", contenido:["Diseñamos tu catalogo de productos y servicios."]},
@@ -43,7 +43,7 @@ const lista_productos = [
     imagen:"img/cl.png", precio:"90000", contenido:["Caja luminosa en diferentes materiales para hacer resaltar tu aviso tanto de dia como en la noche"]},
     {codigo:"1006", nombre:"Señaletica", 
     descripcion:"Señales de abierto cerrado.", codigo_categoria:"9006",
-    imagen:"img/senal.png", precio:"10000", contenido:["Señales de reglamento para tu negocio, abierto y cerrado, salidas de emergencia, indicadores de cuertos"]},
+    imagen:"img/senal.jpg", precio:"10000", contenido:["Señales de reglamento para tu negocio, abierto y cerrado, salidas de emergencia, indicadores de cuertos"]},
 ]
 
 // Lista que representa el carrito de compras del usuario
