@@ -47,7 +47,7 @@ const lista_productos = [
     imagen:"img/senal.jpg", precio:"10000", contenido:["Señales de reglamento para tu negocio, abierto y cerrado, salidas de emergencia, indicadores de cuertos"]},
     {codigo:"1007", nombre:"Habladores QR", 
     descripcion:"Señales de abierto cerrado.", codigo_categoria:"9007",
-    imagen:"img/senal.jpg", precio:"13000", contenido:["Hablador que facilita a tu cliente pagar de manera correcta."]},
+    imagen:"img/hablador.jpg", precio:"13000", contenido:["Hablador que facilita a tu cliente pagar de manera correcta."]},
 ]
 
 // Lista que representa el carrito de compras del usuario
