@@ -9,16 +9,16 @@ const elementos_carrusel = [
     imagen:"img/redes-divine.jpg"},
     {nombre:"P.O.P", 
     descripcion:"Aplicamos tu marca a diferentes piezas publicitarias obteniendo espectaculares resultados en avisos, habladores QR, señalética y muchos más.",
-    imagen:"img/AVISO-EN-ACRILICO-3D-BONITA-COSMETICS.png"},
+    imagen:"img/aa3d.png"},
     {nombre:"Papeleria comercial", 
     descripcion:"Diseñamos e imprimimos la papelería comercial de tu empresa, incluyendo talonarios, hojas membretadas, tarjetas de presentación y más.",
     imagen:"img/2.jpg"},
 ]
 
 const lista_categorias = [
-    { codigo_categoria: "9001", nombre: "Avisos publicitarios",imagen:"img/AVISO-TIPO-BOTON.png", descripcion:"Aviso exterior o inferior, el cual puede tener luces, echo en diferentes materiales como acrilico, lona y mas" },
+    { codigo_categoria: "9001", nombre: "Avisos publicitarios",imagen:"img/atb.png", descripcion:"Aviso exterior o inferior, el cual puede tener luces, echo en diferentes materiales como acrilico, lona y mas" },
     { codigo_categoria: "9002", nombre: "Pines", imagen:"img/pines.png", descripcion:"Formas en acrilico ideales para destacar tu trabajo de uñas" },
-    { codigo_categoria: "9003", nombre: "Catálogos", imagen:"img/CATALOGO-MELIPELUCHES-1.jpg", descripcion:"Diseñamos tu catalogo de productos y servicios." },
+    { codigo_categoria: "9003", nombre: "Catálogos", imagen:"img/cmp.jpg", descripcion:"Diseñamos tu catalogo de productos y servicios." },
     { codigo_categoria: "9004", nombre: "Diseño textil", imagen:"img/diseno-textil-1.png", descripcion:"Diseñamos productos textiles acorde a tus colores y misión." },
     { codigo_categoria: "9006", nombre: "Señalética", imagen:"img/senaletica.png", descripcion:"Señales de abierto cerrado, etc" }
 ];
@@ -28,22 +28,22 @@ const lista_categorias = [
 const lista_productos = [
     {codigo:"1000", nombre:"Aviso tipo boton", 
     descripcion:"Aviso circular en la que destaca tu marca y decora los espacios de tu local.", codigo_categoria:"9001",
-    imagen:"img/AVISO-TIPO-BOTON.png", precio:"27000", contenido:["Material: Acrílico","Medidas: 40x40cm","Iluminación opcional"]},
+    imagen:"img/atb.png", precio:"27000", contenido:["Material: Acrílico","Medidas: 40x40cm","Iluminación opcional"]},
     {codigo:"1002", nombre:"Pines", 
     descripcion:"Ideal para mostrar el diseño de uñas.", codigo_categoria:"9002",
     imagen:"img/pines.png", precio:"50000", contenido:["Formas en acrillico para mostrar el diseño de tus uñas"]},
     {codigo:"1003", nombre:"Diseño de catalogo", 
     descripcion:"Diseñamos tu catalogo de productos y servicios.", codigo_categoria:"9003",
-    imagen:"img/CATALOGO-MELIPELUCHES-1.jpg", precio:"10000", contenido:["Diseñamos tu catalogo de productos y servicios."]},
+    imagen:"img/cmp.jpg", precio:"10000", contenido:["Diseñamos tu catalogo de productos y servicios."]},
     {codigo:"1004", nombre:"Diseño textil", 
     descripcion:"Diseñamos productos textiles acorde a tus colores y misión.", codigo_categoria:"9004",
     imagen:"img/diseno-textil-1.png", precio:"12000", contenido:["Diseñamos productos textiles acorde a tus colores y misión."]},
     {codigo:"1005", nombre:"Aviso caja luminosa", 
     descripcion:"Aviso externo con iluminación que hata resaltar tu negocio.", codigo_categoria:"9001",
-    imagen:"img/CAJA-LUMINOSA-ALISADOS-INTELIGENTES.png", precio:"90000", contenido:["Caja luminosa en diferentes materiales para hacer resaltar tu aviso tanto de dia como en la noche"]},
+    imagen:"img/cl.png", precio:"90000", contenido:["Caja luminosa en diferentes materiales para hacer resaltar tu aviso tanto de dia como en la noche"]},
     {codigo:"1006", nombre:"Señaletica", 
     descripcion:"Señales de abierto cerrado.", codigo_categoria:"9006",
-    imagen:"img/senaletica.png", precio:"10000", contenido:["Señales de reglamento para tu negocio, abierto y cerrado, salidas de emergencia, indicadores de cuertos"]},
+    imagen:"img/senal.png", precio:"10000", contenido:["Señales de reglamento para tu negocio, abierto y cerrado, salidas de emergencia, indicadores de cuertos"]},
 ]
 
 // Lista que representa el carrito de compras del usuario
