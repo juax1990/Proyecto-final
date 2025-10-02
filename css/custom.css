@@ -257,7 +257,7 @@ ul.footer-link-list li a.contact-incolor:hover {
 
 .form-contact {
     margin-bottom: 0 !important;
-    margin-top: 70px !important;
+    margin-top: 20px !important;
 }
 
 .form-group {
@@ -317,6 +317,12 @@ h1 + ul li a:hover {
   background-color: #440b56 !important;
   border-color: #440b56 !important;
 }
+
+.product-overlay .btn:focus,
+.product-overlay .btn:active {
+    box-shadow: none;
+    outline: 2px solid #17cfcb;
+}
 /*----------------  color de detalle de la tienda -----------*/
 
 #etiqueta_detalle_producto {
@@ -329,9 +335,18 @@ h1 + ul li a:hover {
   border: #17cfcb;
 }
 
+/*----------------  Formulario de contacto -----------*/
+
 #btn-contact {
     color: #ffffff !important;
     background-color: #7e1aae !important;
+}
+
+#btn-contact:hover {
+    background-color: #17cfcb;
+    color: white;
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(23, 207, 203, 0.5);
 }
 
 #btn-contact:focus,
@@ -340,7 +355,7 @@ h1 + ul li a:hover {
     border-color: #440b56 !important;      /* borde cuando se presiona */
     box-shadow: none !important;           /* quita el glow azul de Bootstrap */
 }
-/*----------------  color de detalle de la tienda -----------*/
+/*----------------  Datos de pago -----------*/
 
 .pago-container {
   background: #e4fdfc;
@@ -348,6 +363,10 @@ h1 + ul li a:hover {
   border-radius: 10px;
   width: 350px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#formPago {
+    padding: 20px;
 }
 
 .pago-container h2 {
@@ -426,9 +445,21 @@ li div div p {
     color: #ffffff !important;
 }
 
+#boton-agregar:focus,
+#boton-agregar:active {
+    box-shadow: none;
+    outline: 2px solid #17cfcb ;
+}
+
 #boton-regresar {
     background-color: #7E1AAE !important;
     color: #ffffff !important;
+}
+
+#boton-regresar:focus,
+#boton-regresar:active {
+    box-shadow: none;
+    outline: 2px solid #17cfcb ;
 }
 
 .detalle {
@@ -441,6 +472,24 @@ li div div p {
 
 #boton-pagar {
     background-color: #17cfcb !important;
+    border-color: transparent;
+}
+
+#boton-pagar:hover {
+    background-color: #17cfcb;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(23, 207, 203, 0.5);
+}
+
+#btn-pagar:focus,
+#btn-pagar:active {
+  box-shadow: none; /* sombra turquesa */
+}
+
+#boton-pagar:focus,
+#boton-pagar:active {
+    outline: 2px solid #7E1AAE;
 }
 
 #btn-pagar {
