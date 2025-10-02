@@ -9,7 +9,7 @@ const elementos_carrusel = [
     imagen:"img/redes-divine.jpg"},
     {nombre:"P.O.P", 
     descripcion:"Aplicamos tu marca a diferentes piezas publicitarias obteniendo espectaculares resultados en avisos, habladores QR, señalética y muchos más.",
-    imagen:"img/aa3d.png"},
+    imagen:"img/aa3d.jpg"},
     {nombre:"Papeleria comercial", 
     descripcion:"Diseñamos e imprimimos la papelería comercial de tu empresa, incluyendo talonarios, hojas membretadas, tarjetas de presentación y más.",
     imagen:"img/2.jpg"},
@@ -20,7 +20,7 @@ const lista_categorias = [
     { codigo_categoria: "9002", nombre: "Pines", imagen:"img/pines.png", descripcion:"Formas en acrilico ideales para destacar tu trabajo de uñas" },
     { codigo_categoria: "9003", nombre: "Catálogos", imagen:"img/cmp.jpg", descripcion:"Diseñamos tu catalogo de productos y servicios." },
     { codigo_categoria: "9004", nombre: "Diseño textil", imagen:"img/diseno-textil-1.png", descripcion:"Diseñamos productos textiles acorde a tus colores y misión." },
-    { codigo_categoria: "9006", nombre: "Señalética", imagen:"img/senaletica.png", descripcion:"Señales de abierto cerrado, etc" }
+    { codigo_categoria: "9006", nombre: "Señalética", imagen:"img/senal.png", descripcion:"Señales de abierto cerrado, etc" }
 ];
 
 
