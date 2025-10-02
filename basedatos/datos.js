@@ -46,7 +46,7 @@ const lista_productos = [
     descripcion:"Señales de abierto cerrado.", codigo_categoria:"9006",
     imagen:"img/senal.jpg", precio:"10000", contenido:["Señales de reglamento para tu negocio, abierto y cerrado, salidas de emergencia, indicadores de cuertos"]},
     {codigo:"1007", nombre:"Habladores QR", 
-    descripcion:"Señales de abierto cerrado.", codigo_categoria:"9007",
+    descripcion:"QR con tu numero de cuenta.", codigo_categoria:"9007",
     imagen:"img/hablador.jpg", precio:"13000", contenido:["Hablador que facilita a tu cliente pagar de manera correcta."]},
 ]
 
