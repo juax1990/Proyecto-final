@@ -9,7 +9,7 @@ const elementos_carrusel = [
     imagen:"img/redes-divine.jpg"},
     {nombre:"P.O.P", 
     descripcion:"Aplicamos tu marca a diferentes piezas publicitarias obteniendo espectaculares resultados en avisos, habladores QR, señalética y muchos más.",
-    imagen:"img/aa3d.png"},
+    imagen:"img/aa3d.jpg"},
     {nombre:"Papeleria comercial", 
     descripcion:"Diseñamos e imprimimos la papelería comercial de tu empresa, incluyendo talonarios, hojas membretadas, tarjetas de presentación y más.",
     imagen:"img/2.jpg"},
