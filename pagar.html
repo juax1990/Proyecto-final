@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Incolors agencia de diseño</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/templatemo.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+
+<body>
+    <!-- Contenedor para cargar la barra de menú usando JavaScript -->
+    <div id="menu"></div>
+    <!-- Contenido de la página - Inicio -->
+    <h4 class="pago">Datos de pago</h4>
+
+    <div class="container py-5">
+        <div class="row py-2 justify-content-center align-items-center">
+            
+            <div class="pago-container">
+                <h4>Datos de pago</h4>
+                <form id="formPago">
+                    <label for="tarjeta">Número de Tarjeta</label>
+                    <input type="text" id="tarjeta" placeholder="1234 5678 9012 3456" required maxlength="19">
+
+                    <label for="expiracion">Fecha de expiración (MM/AA)</label>
+                    <input type="month" id="expiracion" placeholder="MM/AA" required maxlength="5">
+
+                    <label for="cvc">CVC</label>
+                    <input type="text" id="cvc" placeholder="123" required maxlength="3">
+
+                    <button type="submit">Pagar</button>
+                </form>
+                <div id="mensaje" class="mensaje"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Contenido de la página - Final -->
+
+    <script>
+    document.getElementById("formPago").addEventListener("submit", function(e){
+      e.preventDefault(); // evita recargar la página
+
+      let tarjeta = document.getElementById("tarjeta").value.trim();
+      let expiracion = document.getElementById("expiracion").value.trim();
+      let cvc = document.getElementById("cvc").value.trim();
+
+      let mensaje = document.getElementById("mensaje");
+
+      if(tarjeta && expiracion && cvc){
+        mensaje.style.color = "green";
+        mensaje.textContent = "✅ Pago procesado exitosamente";
+      } else {
+        mensaje.style.color = "red";
+        mensaje.textContent = "❌ Por favor completa todos los campos";
+      }
+    });
+  </script>
+
+    <!-- Contenedor para cargar el pie de página usando JavaScript -->
+    <div id="pie"></div>
+    <!-- Start Script -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/templatemo.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- End Script -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            cargarFragmento("menu", "menu.html");
+            cargarFragmento("pie", "pie.html");
+        });
+    </script>
+</body>
+
+</html>
