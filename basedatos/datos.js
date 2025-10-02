@@ -39,7 +39,7 @@ const lista_productos = [
     descripcion:"Diseñamos productos textiles acorde a tus colores y misión.", codigo_categoria:"9004",
     imagen:"img/diseno-textil-1.png", precio:"12000", contenido:["Diseñamos productos textiles acorde a tus colores y misión."]},
     {codigo:"1005", nombre:"Aviso caja luminosa", 
-    descripcion:"Aviso externo con iluminación que hata resaltar tu negocio.", codigo_categoria:"9001",
+    descripcion:"Aviso externo con iluminación que hara resaltar tu negocio.", codigo_categoria:"9001",
     imagen:"img/cl.png", precio:"90000", contenido:["Caja luminosa en diferentes materiales para hacer resaltar tu aviso tanto de dia como en la noche"]},
     {codigo:"1006", nombre:"Señaletica", 
     descripcion:"Señales de abierto cerrado.", codigo_categoria:"9006",
